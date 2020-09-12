@@ -7,9 +7,8 @@
     "test": "cross-env NODE_ENV=testing jest",
     "server": "cross-env NODE_ENV=development nodemon index.js",
     "start": "node index.js"
-
   },
-  "jest" :{
+  "jest": {
     "testEnvironment": "node"
   },
   "repository": {
@@ -35,7 +34,7 @@
     "jest": "^26.4.2",
     "knex": "^0.21.0",
     "session": "^0.1.0",
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
